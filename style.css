@@ -108,14 +108,15 @@ ul, li, p {
   width: 100%;
   padding: 50px;
   color: #1E555C;
+  display: flex;
+  justify-content: space-around;
 }
 
 .considerText, .historicConditionsList, .disinvestmentInvestmentList, .impactsList,
  .considerImage, .historicConditionsImage, .disinvestmentInvestmentImage, .impactsImage {
   margin: 20px;
   padding: 20px;
-  width: 45%;
-  display: inline-block;
+  width: 50%;
   border: 4px double #1E555C;
 }
 
@@ -126,23 +127,12 @@ ul, li, p {
 .considerImage, .historicConditionsImage, .disinvestmentInvestmentImage, .impactsImage {
   background-color: #B5838D;
   margin: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.imageConsider {
-  width: 60%;
-}
-
-.redlining {
-  width: 80%;
-}
-
-.townhomes {
+.imageConsider, .redlining, .townhomes, .urban {
   width: 100%;
-}
-
-.urban {
-  width: 65%
 }
 
 .containers {
@@ -157,7 +147,6 @@ ul, li, p {
 
 .topContainer {
   text-align: center;
-  background-color:
 }
 
 .bottomContainer {
